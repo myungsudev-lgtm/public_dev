@@ -1,0 +1,104 @@
+### OS
+.DS_Store
+Thumbs.db
+
+### Git merge/patch
+*.orig
+
+### Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+### Editors / IDEs
+# IntelliJ / Android Studio
+.idea/
+*.iml
+# Eclipse
+.project
+.classpath
+.settings/
+# VS Code
+.vscode/
+
+### Java / JVM
+# Compiled & build outputs
+target/
+build/
+out/
+*.class
+# Gradle
+.gradle/
+.gradle-cache/
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+
+### Node / Frontend
+node_modules/
+dist/
+build/
+# Vite / bundlers
+.vite/
+.parcel-cache/
+.npm/
+.pnpm-store/
+.eslintcache
+.stylelintcache
+
+### Coverage
+coverage/
+.nyc_output/
+
+### Environments / Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+.aws/
+.kube/
+.gcloud/
+
+### Databases / Dumps
+*.sql
+*.dump
+*.db
+
+### OS-specific more
+Icon?
+ehthumbs.db
+Desktop.ini
+
+# === Spring Boot config ===
+# 기본 application.yml은 비밀 없이 커밋, 운영/개인용은 무시
+src/main/resources/application-prod.yml
+src/main/resources/application-staging.yml
+src/main/resources/application-*.private.yml
+src/main/resources/application-*.secrets.yml
+src/main/resources/application-*.local.yml
+src/main/resources/bootstrap-prod.yml
+src/main/resources/bootstrap-staging.yml
+
+# properties 버전도 동일하게
+src/main/resources/*-prod.properties
+src/main/resources/*-staging.properties
+src/main/resources/*-secrets.properties
+src/main/resources/*-private.properties
+src/main/resources/*-local.properties
+
+# === Env files ===
+.env
+.env.*
+!.env.example
+
+# === Keys / creds ===
+*.pem
+*.key
+*.crt
+.aws/
+.gcloud/
+.kube/
+
