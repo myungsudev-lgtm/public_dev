@@ -7,7 +7,7 @@ package com.exam.programmers.solution;
 
 import java.util.ArrayList;
 
-public class q_181921 {
+public class Q_181921 {
 
     class Solution {
         public ArrayList<Integer> solution(int l, int r) {
